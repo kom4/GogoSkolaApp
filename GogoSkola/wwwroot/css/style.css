@@ -967,4 +967,19 @@ h1, h2, h3, h4, h5,
 
 #news-section {
     padding: 50px 0 150px 0;
+    margin-top: 250px;
+    margin-bottom: 150px;
+}
+
+.card:hover > .img-fluid {
+    transform: scale(1.1);
+}
+
+.article-img {
+    object-fit: cover;
+    height:100%;
+}
+
+.article-heading {
+    bottom: 0;
 }
