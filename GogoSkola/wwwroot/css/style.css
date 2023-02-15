@@ -959,3 +959,40 @@ h1, h2, h3, h4, h5,
 
 .footer-section {
   padding-top: 12rem !important; }
+
+
+.icon {
+    max-height: 70px;
+}
+
+
+.stretch-card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-box-pack: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+}
+
+    .stretch-card .card {
+        width: 100%;
+    }
+
+.position-relative {
+    border-radius: 5px;
+}
+
+.news-content {
+    position: absolute;
+    padding: 40px 60px;
+    left: 0px;
+    bottom: 0px;
+}
+
+.news-content & .news-content > h2, h3, span {
+    color: #fff
+}
