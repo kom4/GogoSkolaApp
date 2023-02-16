@@ -983,3 +983,28 @@ h1, h2, h3, h4, h5,
 .article-heading {
     bottom: 0;
 }
+
+
+#players-section {
+    margin-top: 200px;
+}
+
+.player-image-wrapper {
+    height: 20vh;
+}
+
+.player-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.player-info {
+    position: absolute;
+    color: white;
+    text-align:center;
+    font-size: 16px;
+    background-color: #0061FF;
+    width: 100%;
+    bottom: 0;
+}
