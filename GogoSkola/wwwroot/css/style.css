@@ -1,30 +1,26 @@
-/*
-////////////////////////////////////////////////////////////////
 
-Author: Free-Template.co
-Author URL: http://free-template.co.
-License: https://creativecommons.org/licenses/by/3.0/
-License URL: https://creativecommons.org/licenses/by/3.0/
-Site License URL: https://free-template.co/template-license/
-  
-Website:  https://free-template.co
-Facebook: https://www.facebook.com/FreeDashTemplate.co
-Twitter:  https://twitter.com/Free_Templateco
-RSS Feed: https://feeds.feedburner.com/Free-templateco
-
-////////////////////////////////////////////////////////////////
-*/
-/* Base */
 html {
     overflow-x: hidden;
 }
 
 body {
+    position: relative;
     line-height: 1.7;
     font-weight: 300;
     font-size: 1.1rem;
     color: #989898;
 }
+
+    body::before {
+        content: "";
+        background-image: url('/images/background.png');
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.1;
+    }
 
 ::-moz-selection {
     background: #000;
@@ -1426,12 +1422,11 @@ h1, h2, h3, h4, h5,
 
 .fotorama__stage {
     border-radius: 5px;
-
 }
 
 
 .footer-icon {
-    line-height:0;
+    line-height: 0;
     font-size: 1.2rem;
 }
 
@@ -1466,7 +1461,7 @@ h1, h2, h3, h4, h5,
     margin: auto;
     overflow: hidden;
     position: absolute;
-    top:0;
+    top: 0;
 }
 
     .slider::before, .slider::after {
